@@ -14,7 +14,7 @@ const Steps = () => {
               <li>Create ajax function to get user-repos data from Github API.</li>
               <li>Pass user-repos data from App to RepoList via props.</li>
               <li>Search functionality: form, input field, onSubmit method</li>
-              <li>onSubmit method: use array.find()</li>
+              <li>onSubmit method updates this.state.username and calls fetch methods again</li>
           </ol>
       </div>
     );
